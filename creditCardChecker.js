@@ -1722,7 +1722,14 @@ An array of ALL invalid arrays:
   [ 4, 9, 2, 9, 8, 7, 7, 1, 6, 9, 2, 1, 7, 0, 9, 3 ],
   [ 0, 9, 1, 3, 5, 4, 0, 4, 6, 3, 0, 7, 2, 5, 2, 3 ] ]
 
-********* Testing third function *********
+********* Testing third function *********            
+
+// this function goes through the array of invalid arrays/credit cards printed above 
+and based on the number in the 0th index, prints out the name of the company. Since, first
+array has 4 in 0th index, it prints Visa, second array has 5 in 0th index, it prints Mastercard, 
+third array has 3 in 0th index, it prints Amex (and so on). Since last array has 0 in 0th index, 
+it prints 'Company not found'. Note that there is more than one array that hold the numbers 3, 4, 
+5, and 6 but we only print these company names once. 
 
 Credit card companies that have possibly issued these faulty numbers:
 [ 'Visa', 'Mastercard', 'Amex', 'Discover', 'Company not found' ]
